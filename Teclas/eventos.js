@@ -30,7 +30,7 @@ function dibujarlinea(color, x_inicial, y_inicial, x_final, y_final, lienzo)//se
 
 function dibujarTeclado(evento)//creamos la variable evento como parámetro
     {
-       var colorcito= "blue";//se crea por fuera para no tener que modificarlo en cada case
+       var colorcito= "red";//se crea por fuera para no tener que modificarlo en cada case
        var movimiento = 10;
         switch(evento.keyCode)
         {
